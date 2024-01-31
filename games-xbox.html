@@ -1,0 +1,256 @@
+                     <!DOCTYPE html>
+                     <html lang= "pt">
+                     <head>
+                     <meta charset= "UTF-8">
+					 <meta name="viewport" content="width=device=width, initial-scale=1.0">
+                     <title>Site de Jogos</title>
+			         <link rel="stylesheet" href="./games.css">
+			         <link rel="stylesheet" href="./menu.css">
+			         <script language="javascript" src="./menujs.js"></script>
+			         <style>
+					 .ps{
+                     background: #fff;
+					 border: 1px solid blue;
+                     color: black;
+                     width: 80%;
+                     height: 30px;
+                     line-height: 30px; 
+                     text-align: center;
+			         transition: background-color 0.4s;
+					 margin-bottom: 5px;
+                     }
+			         .ps:hover{
+			         background: blue;
+			         } 
+					 
+					 
+					 
+					 h2{
+		             font-size: 15pt;
+                     color: #606060;
+                     background-color: #dddddd;
+                     padding: 10px;
+                     margin: 10px;
+                     }
+			         img{
+                     width:25%;
+                     position: relative;
+                     left: 35% ;
+                     }
+                     table#tabelajogos{
+                     border: 1px solid #606060;
+                     border-spacing: 0px;
+                     margin-left:auto;
+                     margin-right:auto;
+                     }
+                     table#tabelajogos td{
+                     border: 1px solid #606060;
+                     padding: 10px;
+                     }
+                     table#tabelajogos td.ce {
+                     color:#ffffff;
+                     background-color: #606060;             
+                     vertical-align: top;
+                     font-weight: bold;
+                     }
+                     table#tabelajogos td.cd {
+                      background-color: #cecece;  
+                     }  
+			         .ssite{
+			         font-size: 20pt;
+			         background: green;
+                     color: white;
+                     width: 99%;
+                     height: 150%;
+                     line-height: 150%; 
+                     text-align: center;
+			         cursor: pointer;
+			         transition: background-color 0.4s;
+			         margin: 0.5%;
+                     }	
+                     .ssite:hover{
+			         background: rgb(0, 51, 0);
+			         }
+					 
+					 
+					 .body, .boder, .bada{
+					 margin: 10px auto 10px auto;
+                     padding: 10px;
+                     background-color: white ;
+                     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+					 }
+					 .body{
+					 width: 35%;
+					 display: inline-block;
+					 }
+					 @media (max-width: 905px) {
+					 .body, .boder{
+					 width: 80%;
+					 display: block;
+					 }
+					 }
+					 @media (min-width: 905px) {
+					 .body, .boder{
+					 margin: 10px auto 10px 10px;
+					 }
+					 .boder {
+					 width: 71.3%;
+					 }
+					 
+			         </style>
+                     </head>
+                     <body>
+			         <nav class="navbar">
+                     <!-- LOGO -->
+                     <div class="logo">GAMES</div>
+                     <!-- NAVEGAÇÃO MENU -->
+                     <ul class="nav-links">
+                     <!-- CHECKBOX HACK -->
+                     <input type="checkbox" id="checkbox_toggle" />
+                     <label for="checkbox_toggle" class="hamburger" onclick="clickSlide()">&#9776;</label>
+                     <!-- NAVEGAÇÃO MENUS -->
+                     <div class="menu">
+                     <li><a href="./index.html">HOME</a></li>
+                     <li><a href="./games.html">GAMES</a></li>
+                     <li><a href="./gamescriptomoedas.html">CRYPTOGAMES</a></li>
+                     <li><a href="./faleconosco.html">FALE CONOSCO</a></li>
+                     </div>
+                     </ul>
+                     </nav>
+					 <div class="xxx" id="xslide"></div>
+                     <div class="bod">
+			         <nav class="navbar">
+                     <!-- LOGO -->
+                     <div id="logo">XBOX</div>
+                     <!-- NAVEGAÇÃO MENU -->
+                     <ul id="nav-links">
+                     <!-- CHECKBOX HACK -->
+                     <label id="hamburger" onclick="clickCategorias()">&#9776;</label>
+                     <!-- NAVEGAÇÃO MENUS -->
+					 <div id="menu">
+                     <li><a href="./games.html" target">JOGOS PARA MOBILE</a></li> 
+                     <li><a href="./games-ps.html">PS</a></li>
+                     <li><a href="./games-pc.html">JOGOS PARA PC</a></li>
+                     <!-- <li><a href="./games-xbox.html">XBOX</a></li> -->
+                     </div>
+                     </ul>
+                     </nav>
+					 
+					 <article class="">
+				     <h1></h1>
+				     <p>
+				     </p>
+				     <br>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+					 <img src=""/>
+				     <a href="" target=_blank"><div class="inst" class="ist" onclick="istDow()">Instalar</div></a>
+                     </article>
+			         
+					 <a href="./games.html" target=_blank"><div class="ps">JOGOS ONLINE PARA MOBILE</div></a>
+					 <a href="./games-pc.html"" target=_blank"><div class="ps">JOGOS ONLINE PARA PC</div></a>
+					 <a href="./games-ps.html" target=_blank"><div class="ps">JOGOS ONLINE PARA PS</div></a>
+					 <a href="./games-xbox.html" target=_blank"><div class="ps">JOGOS ONLINE PARA XBOX</div></a>
+					 
+                     </div>
+					 
+					 
+					 <div class="boder">
+                     <div class="ssite" onclick="alertNotice()" id="sssite" onmousemove="colorNotice()" onmouseout="corNotice()">CLICK AQUI PARA SABER MAIS DO SITE</div><a href="./MENU.html"><div class="ssite">EXPERIMENTE UM JOGO CRIADO POR NOS</div></a>					 
+                     <section id="corpo">
+                     <h2>Os jogos Online que mais se destacaram</h2>
+                     <p>Hoje em dia com a Evolução do <strong>mundo dos jogos</strong> ha varios jogos que se destacaram no cenário dos jogos <strong>online</strong> que mais se destacaram.</p>
+                     <img src="./Project.jpg"/>
+                     <p>Os que mais se destacaram sao os seguintes:</p>
+                     <ul class="ul">
+                     <li>Free Fire</li>
+                     <li>Roblox</li>
+                     <li>Clash of Clans</li>
+                     <li>Mobile Legends</li>
+                     <li>PubG</li>
+                     <li>etc</li>
+                     </ul>
+                     </section>
+                     </div>
+                     <div class="boder">
+                     <aside class="corpo">
+                     <table id="tabelajogos">
+                     <caption><h2>Tabela de Jogos Online e suas Empresas/Desenvolvedores</h2></caption>
+                     <tr><td class="ce">Garena</td><td class="cd">Free Fire</td></tr>
+                     <tr><td class="ce">Supercell</td><td class="cd">Clash of Clans</td></tr>
+                     <tr><td class="ce">Tencent Games</td><td class="cd">PUBG MOBILE</td></tr>
+                     <tr><td class="ce">Roblox Corparation</td><td class="cd">ROBLOX</td></tr>
+                     <tr><td class="ce">Moonton</td><td class="cd">MOBILE LEGENDS</td></tr>
+                     <tr><td class="ce">Niantic</td><td class="cd">POKEMON GO</td></tr>
+                     </table>
+                     </aside>
+                     </div> 
+                     <div class="body">
+					 <article class="">
+				     <h1>FIFA 20</h1>
+				     <p>
+					 Todos os anos, games de futebol tentam aprimorar aspectos de jogabilidade em relação às edições anteriores. Em FIFA 2020, houve, por exemplo, alterações no quique da bola, dificultando passes e chutes, mas dando mais realismo ao jogo. Uma novidade fica por conta do modo Volta, que faz lembrar os velhos tempos do FIFA Street.
+				     </p>
+				     <br>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+					 <img src=""/>
+				     <a href="" target=_blank"><div class="inst" class="ist" onclick="istDow()">Instalar</div></a>
+                     </article>
+					 
+					 <article class="">
+				     <h1>FIFA 23</h1>
+				     <p>
+				     Desenvolvida pela cultuada empresa EA Sports, FIFA 23 é a 29º inclusão na série de jogos de futebol FIFA.O jogo quebrou recordes em sua semana de lançamento com mais de 10,3 milhões de downloads. Atualmente, é estimado um total de 90 mil jogadores simultâneos.
+                     </p>
+				     <br>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <img src=""/>
+				     <a href="" target=_blank"><div class="inst" class="ist" onclick="istDow()">Instalar</div></a>
+                     </article>
+					 </div>
+					 
+					 <div class="body">
+					 <article class="">
+				     <h1>FIFA 20</h1>
+				     <p>
+					 Todos os anos, games de futebol tentam aprimorar aspectos de jogabilidade em relação às edições anteriores. Em FIFA 2020, houve, por exemplo, alterações no quique da bola, dificultando passes e chutes, mas dando mais realismo ao jogo. Uma novidade fica por conta do modo Volta, que faz lembrar os velhos tempos do FIFA Street.
+				     </p>
+				     <br>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+					 <img src=""/>
+				     <a href="" target=_blank"><div class="inst" class="ist" onclick="istDow()">Instalar</div></a>
+                     </article>
+					 <article class="">
+				     <h1>FIFA 23</h1>
+				     <p>
+				     Desenvolvida pela cultuada empresa EA Sports, FIFA 23 é a 29º inclusão na série de jogos de futebol FIFA.O jogo quebrou recordes em sua semana de lançamento com mais de 10,3 milhões de downloads. Atualmente, é estimado um total de 90 mil jogadores simultâneos.
+                     </p>
+				     <br>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <p></p>
+				     <img src=""/>
+				     <a href="" target=_blank"><div class="inst" class="ist" onclick="istDow()">Instalar</div></a>
+                     </article>
+					 </div>
+					 </div>
+					 
+					 <div class="bod">
+                     <footer id="rodape">
+                     <p><a href="http="amiltongovegove@gmail.com" target=_blank">FACEBOOK</a></p> 
+                     </footer>
+                     </div>
+                     </body>
+                     </html>

@@ -1,0 +1,88 @@
+                     <!DOCTYPE html>
+                     <html lang= "pt">
+                     <head>
+                     <meta charset= "UTF-8">
+					 <meta name="viewport" content="width=device=width, initial-scale=1.0">
+                     <title>Site de Jogos Online</title>
+                     <link rel="stylesheet" href="./faleconosco.css">
+                     <link rel="stylesheet"href="./menu.css">
+			         <script language="javascript" src="./menujs.js"></script>
+                     </head>
+                     <body>
+			         <nav class="navbar">
+                     <!-- LOGO -->
+                     <div class="logo">FALE CONOSCO</div>
+                     <!-- NAVEGAÇÃO MENU -->
+                     <ul class="nav-links">
+                     <!-- CHECKBOX HACK -->
+                     <input type="checkbox" id="checkbox_toggle" />
+                     <label for="checkbox_toggle" class="hamburger" onclick="clickSlide()">&#9776;</label>
+                     <!-- NAVEGAÇÃO MENUS -->
+                     <div class="menu">
+                     <li><a href="./index.html">HOME</a></li>
+                     <li><a href="./games.html">GAMES</a></li>
+                     <li><a href="./gamescriptomoedas.html">CRYPTOGAMES</a></li>
+                     <li><a href="./faleconosco.html">FALE CONOSCO</a></li>
+                     </div>
+                     </ul>
+                     </nav>
+					 <div class="xxx" id="xslide"></div>
+                     <div class="body">
+                     <form method="post" id="fContato" action="mailto:amiltongovegove@gmail.com" oninput="calc_total();">
+                     <fieldset id="usuario"><legend>Identificacao do Usuario</legend>
+                     <p><label for="cNome">Nome: </label>
+                     <input type="text" name="tNome" id="cNome" size="20" maxlenght="30" placeholder="Nome Completo"/></p>
+                     <p><label for="cSenha">Senha: </label>
+                     <input type="password" name="tSenha" id"cSenha" size="8" maxlenght="8" placeholder="8 digitos"/></p>
+                     <p><label for="Mail">E-mail: </label>
+                     <input type="email" name="tMail" id="cMail" size="20" maxlenght="40"/></p>
+                      </fieldset>         
+                     <fieldset id="sexo"><legend>Sexo</legend>
+                     <input type="radio" name="tSexo" id="cMasc" checked/> <label for="cMasc">Masculino</label><br>
+                     <input type="radio" name="tSexo" id="cFem"> <label for="cFam">Femenino</label>
+                     </fieldset>  
+                     <fieldset>
+                     <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"/></p>
+                     </fieldset>         
+                     <fieldset id="endereco"><legend>Endereco do Usuario</legend>
+                     <p>Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlenght="80" placeholder="Rua, Av, Trav,..."/></p>
+                     <p>Numero: <input type="number" name="tNum" id="cNum" min="0" max="999999999999"/></p>
+                     <p><label for="cEst">Estado:</label>
+                     <input type="text" name="tEst" id="cEs" maxlenght="40" size="20" placeholder="Seu Estado" list="estados"/></p>
+					 <datalist id="estados">
+                     <option value="Maputo"></option>
+                     <option value="Inhambane"></option>
+                     </datalist>
+                     <p><label for="cCid">Cidade:</label>
+                     <input type="text" name="tCid" id="cCid" maxlenght="40" size="20" placeholder="Sua Cidade" list="cidades"/></p> 
+                     <datalist id="cidades">
+                     <option value="Maputo"></option>
+                     <option value="Inhambane"></option>
+                     </datalist>
+                     </fieldset>              
+                     <fieldset id="mensagem"><legend>Mensagem do Usuario</legend>
+                     <p><label for="cUrg">Grau de Urgencia:</label>
+                     Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5"/>Max</p>
+                     <p><label for="cMsg">Mensagem:</label>
+                     <textarea name="tMsg" id="cmsg" cols="20 auto" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea></p>
+                     </fieldset>                
+                     <fieldset id="pedido"><legend>Quer um PS5</legend>
+                     <p><input type="checkbox" name="tPed" id="cPed" checked/>
+                     <label for="cPed">Quer um PS5?</label>
+                     <p><label for="cCor">Cor:</label>
+                     <input type="color" name="tCor" id="cPed"/></p>
+                     <p><label for="cQtd">Quantidade:</label>
+                     <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"/></p>
+                     <p><label for="cTot">Preco Total: MZN</label>
+                     <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly/></p>
+                     </fieldset>
+                     <input type="submit" value="Enviar"/>
+                     </form>
+                     </div>
+                     <div class="bod">
+                     <footer id="rodape">
+                     <p><a href="http="amiltongovegove@gmail.com" target=_blank">FACEBOOK</a></p> 
+                     </footer>
+                     </div>
+                     </body>
+                     </html>

@@ -1,0 +1,124 @@
+                     <!DOCTYPE html>
+                     <html lang= "pt">
+                     <head>
+                     <meta charset= "UTF-8">
+					 <meta name="viewport" content="width=device=width, initial-scale=1.0">
+                     <title>Site de Jogos Online</title>
+                     <link rel="stylesheet" href="./home.css">
+                     <link rel="stylesheet" href="./menu.css">
+				     <script language="javascript" src="./menujs.js"></script>
+                     </head>
+                     <body>
+					 <nav class="navbar">
+                     <!-- LOGO -->
+                     <div class="logo" onclick="alertNotice()">SITE DE JOGOS</div>
+                     <!-- NAVEGAÇÃO MENU -->
+                     <ul class="nav-links">
+                     <!-- CHECKBOX HACK -->
+                     <input type="checkbox" id="checkbox_toggle" />
+                     <label for="checkbox_toggle" class="hamburger" onclick="clickSlide()">&#9776;</label>
+                     <!-- NAVEGAÇÃO MENUS -->
+                     <div class="menu">
+                     <li><a href="./index.html">HOME</a></li>
+                     <li><a href="./games.html">GAMES</a></li>
+                     <li><a href="./gamescriptomoedas.html">CRYPTOGAMES</a></li>
+                     <li><a href="./faleconosco.html">FALE CONOSCO</a></li>
+                     </div>
+                     </ul>
+                     </nav>
+					 <div class="xxx" id="xslide"></div>
+					 <div class="bod">
+                     <div class="slider">
+                     <div class="slides">
+                     <!-- Botoes -->
+                     <input type="radio" name="radio-btn" id="radio1">
+                     <input type="radio" name="radio-btn" id="radio2">
+                     <input type="radio" name="radio-btn" id="radio3">
+                     <input type="radio" name="radio-btn" id="radio4">
+                     <!--Fim Botoes -->
+
+                     <!--Imagens -->
+                     <div class="slide first">
+                     <img src="./codm.png">
+                     </div>
+                     <div class="slide">
+                     <img src="./coc.png">
+                     </div>
+                     <div class="slide">
+                     <img src="./ff.png">
+                     </div>
+                     <div class="slide">
+                     <img src="./bcm.png">
+                     </div>
+                     <!-- Fim Imagens -->
+                     <!-- Navegacao auto -->
+                     <div class="navigation-auto">
+                     <div class="auto-btn1"></div>
+                     <div class="auto-btn2"></div>
+                     <div class="auto-btn3"></div>
+                     <div class="auto-btn4"></div>
+                     </div>
+                     </div>
+                     <div class="manual-navigation">
+                     <label for="radio1" class="manual-btn"></label>
+                     <label for="radio2" class="manual-btn"></label>
+                     <label for="radio3" class="manual-btn"></label>
+                     <label for="radio4" class="manual-btn"></label>
+                     </div>
+                     </div> 
+                     </div>	
+					 
+			         <div class="bod">	 
+                     <section id="corpo">
+                     <h2>Os jogos Online que mais se destacaram</h2>
+                     <p>Hoje em dia com a Evolução do <strong>mundo dos jogos</strong> ha varios jogos que se destacaram no cenário dos jogos <strong>online</strong> que mais se destacaram.</p>
+                     <img class="index" src="./project.jpg"/>
+                     <p>Os que mais se destacaram sao os seguintes:</p>
+                     <ul class="ul">
+                     <li>Free Fire</li>
+                     <li>Roblox</li>
+                     <li>Clash of Clans</li>
+                     <li>Mobile Legends</li>
+                     <li>PubG</li>
+                     <li>etc</li>
+                     </ul>
+                     </section>
+                     </div>
+                     <div class="bod">
+                     <aside class="corpo">
+                     <table id="tabelajogos">
+                     <caption><h2>Tabela de Jogos Online e suas Empresas/Desenvolvedores</h2></caption>
+                     <tr><td class="ce">Garena</td><td class="cd">Free Fire</td></tr>
+                     <tr><td class="ce">Supercell</td><td class="cd">Clash of Clans</td></tr>
+                     <tr><td class="ce">Tencent Games</td><td class="cd">PUBG MOBILE</td></tr>
+                     <tr><td class="ce">Roblox Corparation</td><td class="cd">ROBLOX</td></tr>
+                     <tr><td class="ce">Moonton</td><td class="cd">MOBILE LEGENDS</td></tr>
+                     <tr><td class="ce">Niantic</td><td class="cd">POKEMON GO</td></tr>
+                     </table>
+                     </aside>
+                     </div>  
+                     <div class="bod">
+                     <footer id="rodape">
+                     <p><a href="http="amiltongovegove@gmail.com" target=_blank">FACEBOOK</a></p> 
+                     </footer>
+                     </div>
+					 <script>
+	                 let count =1;
+                     document.getElementById("radio1").checked = true;
+
+                     setInterval( function(){
+                     nextImage();
+                     }, 2000)
+
+
+                     function nextImage(){
+                     count++;
+                     if(count>4){
+                     count = 1;
+                     }
+
+                     document.getElementById("radio"+count).checked = true;
+                     }
+	                 </script>
+                     </body>
+                     </html>

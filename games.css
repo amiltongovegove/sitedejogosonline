@@ -1,0 +1,83 @@
+                     @charset "UTF-8";
+					 
+					 article h1{
+                     color: #606060;
+                     background-color: #dddddd;
+                     padding: 10px;
+                     margin: 10px;
+                     }
+                     article{
+					 padding: 10px;
+                     margin-bottom: 10px;
+                     }
+                     img{
+					 border-radius: 10px;
+                     width: 10%;
+			         position: relative;
+                     top: -5%;
+                     left: 90%;
+                     }            
+                     .inst{
+                     background: green;
+                     color: white;
+                     width: 80%;
+                     height: 30px;
+                     line-height: 30px; 
+                     text-align: center;
+			         transition: background-color 0.4s;
+                     }
+			         .inst:hover{
+			         background: rgb(0, 51, 0);
+			         } 
+					 
+					 
+					 #logo {
+                     font-size: 28px;
+                     }
+                     #nav-links a {
+                     color: #fff;
+                     }
+					 #menu li:hover {
+                     background-color: #4c9e9e;
+                     border-radius: 5px;
+                     transition: 0.3s ease;
+                     }
+                     #menu li {
+                     padding: 5px 14px;
+                     }  
+                     #hamburger {
+                     font-size: 24px;
+                     }
+                     #menu {
+					 width: 90%;
+                     display:none;
+                     position: absolute;
+                     background-color:teal;
+                     right: 0;
+                     left: 5%;
+                     text-align: center;
+                     padding: 16px 0;
+					 gap: 1em;
+                     font-size: 18px;
+                     }
+                     #menu li:hover {
+                     display: inline-block;
+                     background-color:#4c9e9e;
+                     transition: 0.3s ease;
+                     }
+                     #menu li + li {
+                     margin-top: 12px;
+                     }
+                     
+                     #hamburger {
+                     display: block;
+                     }
+                     .dropdown {
+                     left: 50%;
+                     top: 30px;
+                     transform: translateX(35%);
+                     }
+                     .dropdown li:hover {
+                     background-color: #4c9e9e;
+                     }
+                     }

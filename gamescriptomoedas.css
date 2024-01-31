@@ -1,0 +1,18 @@
+                     @charset "UTF-8";
+					 
+					 .ssite{
+			         font-size: 20pt;
+			         background: green;
+                     color: white;
+                     width: 99%;
+                     height: 150%;
+                     line-height: 150%; 
+                     text-align: center;
+			         cursor: pointer;
+			         transition: background-color 0.4s;
+			         margin: 0.5%;
+                     }	
+                     .ssite:hover{
+			         background: rgb(0, 51, 0);
+			         }
+					 

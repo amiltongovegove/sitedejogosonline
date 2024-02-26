@@ -1,1 +1,30 @@
 @charset "utf-8";
+
+/*Todas as demais midias*/
+			
+			/*Typical Device Breakpoints
+			--------------------------------
+			Pequenas telas: ate 600px
+			Celular: de 600px ate 700px
+			Tablet: 768px ate 1200px
+			Desktop: 992px ate 1200px
+			Grandes telas: acima de 1200px
+			*/
+			
+			 /*Impressao*/
+             @media print {
+				* {
+					font-family: 'Coursier New', Cousier, monospace;
+				}
+            }
+            /*Tablet*/
+			@media screen and (min-width: 768px) and (max-width: 992px) { 
+            }
+
+            /*Desktop*/
+			@media screen and (min-width: 992px) and (max-width: 1200px) { 
+            }
+
+            /*Grandes telas*/
+			@media screen and (min-width: 1200px) { 
+            }

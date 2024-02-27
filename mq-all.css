@@ -1,6 +1,6 @@
-@charset "utf-8";
+           @charset "utf-8";
 
-/*Todas as demais midias*/
+            /*Todas as demais midias*/
 			
 			/*Typical Device Breakpoints
 			--------------------------------
@@ -27,4 +27,4 @@
 
             /*Grandes telas*/
 			@media screen and (min-width: 1200px) { 
-            }
+			}

@@ -12,15 +12,15 @@
                      }
                      img{
 					 border-radius: 10px;
-                     width: 20%;
+                     width: 10%;
 			         position: relative;
                      top: -5%;
-                     left: 80%;
+                     left: 90%;
                      }            
                      .inst{
                      background: green;
                      color: white;
-                     width: 80%;
+                     width: 90%;
                      height: 30px;
                      line-height: 30px; 
                      text-align: center;
@@ -30,7 +30,7 @@
 			         background: rgb(0, 51, 0);
 			         } 
 					 
-					 
+					 /*MENU CATEGORIAS*/
 					 #logo {
                      font-size: 20px;
                      }
@@ -72,12 +72,5 @@
                      #hamburger {
                      display: block;
                      }
-                     .dropdown {
-                     left: 50%;
-                     top: 30px;
-                     transform: translateX(35%);
-                     }
-                     .dropdown li:hover {
-                     background-color: #4c9e9e;
-                     }
-                     }
+                     
+                     

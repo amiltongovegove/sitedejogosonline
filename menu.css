@@ -1,12 +1,19 @@
                         @charset "UTF-8";
 					 
                         /*Versao Mobile First*/
+                        /*Paletas de cores
+                        rgba(73, 66, 66, 0.075)
+                        rgba(6, 79, 82, 0.575)
+                        rgb(13, 145, 138)
+                        rgb(48, 184, 161)
+                        */
                         * {
                            padding: 0;
                            margin: 0;
                         }
                         body {
                            font-family: Arial, Helvetica, sans-serif;
+                           background-color: ;
                         }
 
                         /*MENU*/

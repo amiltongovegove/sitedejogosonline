@@ -1,69 +1,69 @@
-                     @charset "UTF-8";
+                        @charset "UTF-8";
 					 
-                     /*Versao Mobile First*/
+                        /*Versao Mobile First*/
+                        * {
+                           padding: 0;
+                           margin: 0;
+                        }
+                        body {
+                           font-family: Arial, Helvetica, sans-serif;
+                        }
 
-                     /* UTILIDADES */
-                     * {
-                     padding: 0;
-                     margin: 0;
-                     }
-                     body {
-                     font-family: Arial, Helvetica, sans-serif;
-                     }
-                     a {
-                            text-decoration: none;
-                            }
-                            li {
-                            list-style: none;
-                            }
+                        /*MENU*/
+                        a {
+                        text-decoration: none;
+                        }
+                        li {
+                        list-style: none;
+                        }
           
-                            /* NAVBAR ESTILO*/
-                            .navbar {
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-                            padding: 20px;
-                            background-color: teal;
-                            color: #fff;
-                            }
-                            .nav-links a {
-                            color: #fff;
-                            }
+                        /* NAVBAR ESTILO*/
+                        .navbar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 20px;
+                        background-color: teal;
+                        color: #fff;
+                        }
+                        .nav-links a {
+                        color: #fff;
+                        }
                             
-                            /* LOGO */
-                            .logo {
-                            font-size: 32px;
-                            cursor: pointer;
-                            }
-                            /* NAVBAR MENU*/ 
-                            .menu {
-                            display: flex;
-                            gap: 1em;
-                            font-size: 18px;
-                            }
-                            .menu li:hover {
-                            background-color: #4c9e9e;
-                            border-radius: 5px;
-                            transition: 0.3s ease;
-                            }
-                            .menu li {
-                         padding: 5px 14px;
-                         }  
+                        /* LOGO */
+                        .logo {
+                        font-size: 32px;
+                        cursor: pointer;
+                        }
+                        /* NAVBAR MENU*/ 
+                        .menu {
+                        display: flex;
+                        gap: 1em;
+                        font-size: 18px;
+                        }
+                        .menu li:hover {
+                        background-color: #4c9e9e;
+                        border-radius: 5px;
+                        transition: 0.3s ease;
+                        }
+                        .menu li {
+                        padding: 5px 14px;
+                        }  
           
-                         /* NAVBAR MENU RESPONSIVA*/
-                         /* CHECKBOX HACK */
-                         input[type=checkbox]{
-                         display: none;
-                         } 
-                         /*HAMBURGER MENU*/
-                         .hamburger {
-                         display: none;
-                         font-size: 24px;
-                         user-select: none;
-                         cursor: pointer;
-                         }
+                        /* NAVBAR MENU RESPONSIVA*/
+                        /* CHECKBOX HACK */
+                        input[type=checkbox]{
+                        display: none;
+                        } 
+                        /*HAMBURGER MENU*/
+                        .hamburger {
+                        display: none;
+                        font-size: 24px;
+                        user-select: none;
+                        cursor: pointer;
+                        }
                         
-                         /* APLICAÇÃO MEDIA QUERIES */
+                        /* APLICAÇÃO MEDIA QUERIES */
 					 
                         @media screen and (max-width: 768px) {
                      
@@ -94,5 +94,5 @@
                         height: 170px;
                         display: none;
                         }  
-					    }
+					         }
                      

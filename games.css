@@ -1,5 +1,14 @@
                      @charset "UTF-8";
 					 
+                     :root {
+                        --cor0: #ebe5c5;
+                        --cor1: #83e1ad;
+                        --cor2: #3ddc84;
+                        --cor3: #2fa866;
+                        --cor4: #1a5c37;
+                        --cor5: #063d1e;
+                        --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+                     }
 					 article h1{
                      color: #606060;
                      background-color: #dddddd;
@@ -12,13 +21,12 @@
                      }
                      img{
 					 border-radius: 10px;
-                     width: 10%;
-			         position: relative;
-                     top: -5%;
-                     left: 90%;
+                     width: 100%;
+			         display: block;
+                     margin: auto;
                      }            
                      .inst{
-                     background: green;
+                     background: var(--cor3);
                      color: white;
                      width: 90%;
                      height: 30px;
@@ -27,7 +35,7 @@
 			         transition: background-color 0.4s;
                      }
 			         .inst:hover{
-			         background: rgb(0, 51, 0);
+			         background: var(--cor5);
 			         } 
 					 
 					 /*MENU CATEGORIAS*/

@@ -32,13 +32,13 @@
 					       .slider {
                         margin: 0 auto;
                         width: 100%;
-                        height: 250px;
+                        height: 300px;
                         overflow: hidden;
 					              border-radius: 10px;
                       }
                       .slides{
                         width: 400%;
-                        height: 270px;
+                        height: 300px;
                         display: flex;
                       }
                       .slides input{

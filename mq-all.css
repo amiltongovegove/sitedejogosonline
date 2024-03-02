@@ -12,7 +12,7 @@
 			*/
 			
 			 /*Impressao*/
-             @media print {
+            @media print {
 				* {
 					font-family: 'Coursier New', Cousier, monospace;
 				}
@@ -24,8 +24,20 @@
 
             /*Desktop*/
 			@media screen and (min-width: 992px) and (max-width: 1200px) { 
+				main {
+					width: 800px;
+				}
+				main > nav.navbar {
+					display: none;
+				}
             }
 
             /*Grandes telas*/
 			@media screen and (min-width: 1200px) { 
+				main {
+					width: 800px;
+				}
+				main > nav.navbar {
+					display: none;
+				}
 			}

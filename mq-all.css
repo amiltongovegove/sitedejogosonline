@@ -24,20 +24,32 @@
 
             /*Desktop*/
 			@media screen and (min-width: 992px) and (max-width: 1200px) { 
-				main {
-					width: 800px;
-				}
-				main > nav.navbar {
-					display: none;
-				}
             }
 
             /*Grandes telas*/
 			@media screen and (min-width: 1200px) { 
-				main {
-					width: 800px;
-				}
+			}
+
+			@media  screen and (min-width: 992px) {
 				main > nav.navbar {
 					display: none;
+				}
+				main {
+					width: 950px;
+				}
+				section {
+					width: 700px;
+					border-right: 1px solid var(--cor2);
+				}
+				aside {
+					width: 200px;
+				}
+				section, aside {
+					padding: 10px;
+					margin: 10px;
+					display: inline-table;
+				}
+				img {
+					height: 300px;
 				}
 			}

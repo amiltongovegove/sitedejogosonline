@@ -1,146 +1,146 @@
-                     @charset "UTF-8";
-					 
-					 :root {
-                        --cor0: #ebe5c5;
-                        --cor1: #83e1ad;
-                        --cor2: #3ddc84;
-                        --cor3: #2fa866;
-                        --cor4: #1a5c37;
-                        --cor5: #063d1e;
-                     }
-                     main {
-                        position: relative;
-                        height: 100vh;
-                     }
-                     .signup {
-                        background-color: var(--cor1);
-                        color: var(--cor3);
-                        font-size: 1.3em;
-                        float: right;
-                        padding: 5px;
-                        border-radius: 5px;
-                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-                     }
-                     .signup:hover {
-                        background-color: var(--cor4);
-                        color: var(--cor3);
-                     }
-                     section#login {
-                        margin-top: 20px;
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        overflow: hidden;
-                        
-                        background-color: white;
-                        width: 250px;
-                        height: 545px;
-                        border-radius: 20px;
-                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-                        
-                        transition: width .3s, height .3s;
-                        transition-timing-function: ease;
-                     }
-                    section#login > div#imagem {
-                        display: block;
-                        background: var(--cor5) url(./codm.png) no-repeat;
-                        background-size: cover;
-                        background-position: center center;
-                        height: 200px;
-                     }
-                     section#login > div#formulario {
-                        display: block;
-                        padding: 10px;
-                     }
-                     div#formulario > h1 {
-                        text-align: center;
-                        margin-bottom: 10px;
-                     }
-                     div#formulario > p {
-                        font-size: 0.8em;
-                     }
-                     div.campo, input {
-                        background-color: #fff;
-                        display: block;
-                        width: 100%;
-                        height: 40px;
-                        border-radius: 8px;
-                        border-color: var(--cor3);
-                        margin: 5px 0px;
-                     }
-                     div.campo label {
-                        display: none;
-                     }
-                     #entrar {
-                        display: block;
-                        font-size: 1em;
-                        width: 100%;
-                        height: 40px;
-                        background-color: var(--cor2);
-                        color: white;
-                        border: none;
-                        border-radius: 5px;
-                        cursor: pointer;
-                     }
-                     #entrar:hover {
-                        background-color: var(--cor5);
-                     }
-                     a.botao {
-                        display: block;
-                        text-align: center;
-                        font-size: 1em;
-                        width: 100%;
-                        height: 40px;
-                        padding-top: 5px;
-                        margin-top: 5px;
-                        background-color: white;
-                        color: var(--cor4);
-                        border: 1px solid var(--cor3);
-                        border-radius: 7px;
-                        text-decoration: none;
-                        cursor: pointer;
-                     }
-                     a.botao:hover {
-                        background-color: var(--cor2);
-                     }
-                     a.botao > i {
-                        font-size: 0.8em;
-                     }
+      @charset "UTF-8";
 
-                     @media screen and (min-width: 768px) and (max-width: 992px) {
-                         section#login {
-                            width: 80vw;
-                            height: 330px;
-                         }
-                        section#login > div#imagem {
-                            float: left;
-                            width: 30%;
-                            height: 100%;
-                        }
-                         section#login > div#formulario {
-                            float: right;
-                            width: 70%;
-                         }
-                         }
-                         @media screen and (min-width: 992px) {
-                         section#login {
-                            width: 950px;
-                            height: 330px;
-                         }
-                         section#login > div#imagem {
-                            float: right;
-                            width: 50%;
-                            height: 100%;
-                         }
-                         section#login > div#formulario {
-                            float: left;
-                            width: 50%;
-                         }
-                         div#formulario > h1 {
-                            font-size: 2em;
-                         }
-                         div#formulario > h1 {
-                            font-size: 1.2em;
-                         }
-                     }
+      :root {
+         --cor0: #ebe5c5;
+         --cor1: #83e1ad;
+         --cor2: #3ddc84;
+         --cor3: #2fa866;
+         --cor4: #1a5c37;
+         --cor5: #063d1e;
+      }
+      main {
+         position: relative;
+         height: 100vh;
+      }
+      .signup {
+         background-color: var(--cor1);
+         color: var(--cor3);
+         font-size: 1.3em;
+         float: right;
+         padding: 5px;
+         border-radius: 5px;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+      }
+      .signup:hover {
+         background-color: var(--cor4);
+         color: var(--cor3);
+      }
+      section#login {
+         margin-top: 20px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         overflow: hidden;
+
+         background-color: white;
+         width: 250px;
+         height: 545px;
+         border-radius: 20px;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+         transition: width .3s, height .3s;
+         transition-timing-function: ease;
+      }
+      section#login > div#imagem {
+         display: block;
+         background: var(--cor5) url(./codm.png) no-repeat;
+         background-size: cover;
+         background-position: center center;
+         height: 200px;
+      }
+      section#login > div#formulario {
+         display: block;
+         padding: 10px;
+      }
+      div#formulario > h1 {
+         text-align: center;
+         margin-bottom: 10px;
+      }
+      div#formulario > p {
+         font-size: 0.8em;
+      }
+      div.campo, input {
+         background-color: #fff;
+         display: block;
+         width: 100%;
+         height: 40px;
+         border-radius: 8px;
+         border-color: var(--cor3);
+         margin: 5px 0px;
+      }
+      div.campo label {
+         display: none;
+      }
+      #entrar {
+         display: block;
+         font-size: 1em;
+         width: 100%;
+         height: 40px;
+         background-color: var(--cor2);
+         color: white;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+      }
+      #entrar:hover {
+         background-color: var(--cor5);
+      }
+      a.botao {
+         display: block;
+         text-align: center;
+         font-size: 1em;
+         width: 100%;
+         height: 40px;
+         padding-top: 5px;
+         margin-top: 5px;
+         background-color: white;
+         color: var(--cor4);
+         border: 1px solid var(--cor3);
+         border-radius: 7px;
+         text-decoration: none;
+         cursor: pointer;
+      }
+      a.botao:hover {
+         background-color: var(--cor2);
+      }
+      a.botao > i {
+         font-size: 0.8em;
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+         section#login {
+            width: 80vw;
+            height: 330px;
+         }
+         section#login > div#imagem {
+            float: left;
+            width: 30%;
+            height: 100%;
+         }
+         section#login > div#formulario {
+            float: right;
+            width: 70%;
+         }
+      }
+      @media screen and (min-width: 992px) {
+         section#login {
+            width: 950px;
+            height: 330px;
+         }
+         section#login > div#imagem {
+            float: right;
+            width: 50%;
+            height: 100%;
+         }
+         section#login > div#formulario {
+            float: left;
+            width: 50%;
+         }
+         div#formulario > h1 {
+            font-size: 2em;
+         }
+         div#formulario > h1 {
+            font-size: 1.2em;
+         }
+      }

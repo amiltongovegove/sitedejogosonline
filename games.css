@@ -45,6 +45,21 @@
     .inst:hover {
       background: var(--cor5);
     } 
+    aside > h1 {
+      color: var(--cor3);
+      text-align: center;
+    }
+    aside li {
+      list-style: none;
+      margin-bottom: 5px;
+    }
+    aside a {
+      font-size: 1.3em;
+      color: var(--cor5);
+    }
+    aside a:hover {
+      color: var(--cor1);
+    }
 
     /*MENU CATEGORIAS*/
     #logo {

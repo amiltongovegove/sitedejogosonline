@@ -1,67 +1,66 @@
-                     @charset "UTF-8";
-                     
-                     :root {
-                        --cor0: #ebe5c5;
-                        --cor1: #83e1ad;
-                        --cor2: #3ddc84;
-                        --cor3: #2fa866;
-                        --cor4: #1a5c37;
-                        --cor5: #063d1e;
-                      }
+    @charset "UTF-8";
 
-					       section > h1 {
-                        color: var(--cor3);
-                      }
-                      section > p {
-                        text-align: justify;
-                        text-indent: 30px;
-                        line-height: 2em;
-                      }
-                      section > ul {
-                        padding: 20px;
-                        line-height: 2em;
-                      }
-			             section > img {
-                        width: 250px;
-                        display: block;
-                        margin: auto;
-					         border-radius: 10px;
-                      }
-                     
-					       /*SLIDE*/
-					       .slider {
-                        margin: 0 auto;
-                        width: 100%;
-                        height: 300px;
-                        overflow: hidden;
-					              border-radius: 10px;
-                      }
-                      .slides{
-                        width: 400%;
-                        height: 300px;
-                        display: flex;
-                      }
-                      .slides input{
-                        display: none;
-                      }
-                      .slide{
-                        width: 25%;
-                        position: relative;
-                      }
-                      .slide img{
-                        width: 100%;
-					         height: 100%;
-                      }
-                      #radio1:checked ~ .first {
-                        margin-left: 0;
-                      }
-                      #radio2:checked ~ .first {
-                        margin-left: -25%;
-                      }
-                      #radio3:checked ~ .first {
-                        margin-left: -50%;
-                      }
-					       #radio4:checked ~ .first {
-                        margin-left: -75%;
-                      }
-                      
+    :root {
+      --cor0: #ebe5c5;
+      --cor1: #83e1ad;
+      --cor2: #3ddc84;
+      --cor3: #2fa866;
+      --cor4: #1a5c37;
+      --cor5: #063d1e;
+    }
+
+    section > h1 {
+      color: var(--cor3);
+    }
+    section > p {
+      text-align: justify;
+      text-indent: 30px;
+      line-height: 2em;
+    }
+    section > ul {
+      padding: 20px;
+      line-height: 2em;
+    }
+    section > img {
+      width: 250px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    /*SLIDE*/
+    .slider {
+      margin: 0 auto;
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .slides{
+      width: 400%;
+      height: 300px;
+      display: flex;
+    }
+    .slides input{
+      display: none;
+    }
+    .slide{
+      width: 25%;
+      position: relative;
+    }
+    .slide img{
+      width: 100%;
+      height: 100%;
+    }
+    #radio1:checked ~ .first {
+      margin-left: 0;
+    }
+    #radio2:checked ~ .first {
+      margin-left: -25%;
+    }
+    #radio3:checked ~ .first {
+      margin-left: -50%;
+    }
+    #radio4:checked ~ .first {
+      margin-left: -75%;
+    }

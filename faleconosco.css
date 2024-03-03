@@ -10,7 +10,7 @@
       }
       main {
          position: relative;
-         height: 100vh;
+         height: 600px;
       }
       .signup {
          background-color: var(--cor1);
@@ -124,6 +124,9 @@
          }
       }
       @media screen and (min-width: 992px) {
+         main > section {
+            border-right: none;
+         }
          section#login {
             width: 950px;
             height: 330px;

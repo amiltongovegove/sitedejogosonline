@@ -1,85 +1,84 @@
-                     <!DOCTYPE html>
-                     <html lang= "pt">
-                     <head>
-                     <meta charset= "UTF-8">
-					 <meta name="viewport" content="width=device=width, initial-scale=1.0">
-                     <title>Site de Jogos Online</title>
-                     <link rel="stylesheet" href="./faleconosco.css">
-                     <link rel="stylesheet"href="./menu.css">
-                     <link rel="stylesheet" href="./mq-all.css" media="all">
-			         <script language="javascript" src="./menujs.js"></script>
-                     </head>
-                     <body>
-                     <header>
-			         <nav class="navbar">
-                     <!-- LOGO -->
-                     <h1 class="logo">FALE CONOSCO</h1>
-                     <!-- NAVEGAÇÃO MENU -->
-                     <menu class="nav-links">
-                     <!-- CHECKBOX HACK -->
-                     <input type="checkbox" id="checkbox_toggle" />
-                     <label for="checkbox_toggle" class="hamburger" onclick="clickSlide()">&#9776;</label>
-                     <!-- NAVEGAÇÃO MENUS -->
-                     <ul class="menu">
+<!DOCTYPE html>
+<html lang= "pt">
+<head>
+   <meta charset= "UTF-8">
+   <meta name="viewport" content="width=device=width, initial-scale=1.0">
+   <title>Site de Jogos Online</title>
+   <link rel="stylesheet" href="./faleconosco.css">
+   <link rel="stylesheet"href="./menu.css">
+   <link rel="stylesheet" href="./mq-all.css" media="all">
+   <script language="javascript" src="./menujs.js"></script>
+</head>
+<body>
+   <header>
+      <nav class="navbar">
+         <!-- LOGO -->
+         <h1 class="logo">FALE CONOSCO</h1>
+            <!-- NAVEGAÇÃO MENU -->
+            <menu class="nav-links">
+               <!-- CHECKBOX HACK -->
+               <input type="checkbox" id="checkbox_toggle" />
+               <label for="checkbox_toggle" class="hamburger" onclick="clickSlide()">&#9776;</label>
+                  <!-- NAVEGAÇÃO MENUS -->
+                  <ul class="menu">
                      <li><a href="./index.html">HOME</a></li>
                      <li><a href="./games.html">GAMES</a></li>
                      <li><a href="./gamescriptomoedas.html">CRYPTOGAMES</a></li>
                      <li><a href="./faleconosco.html">FALE CONOSCO</a></li>
-                     </ul>
-                    </menu>
-                     </nav>
-                     <div class="xxx" id="xslide"></div>
-                     </header>
-                     <main>
-                        <a href="./cadastro.html" class="signup">Cadastre-se</a>
-                     <section>
-                        <section id="login">
-                            <div id="imagem">
-                            <!-- Imagem nas css --> 
-                            </div>
-                            <div id="formulario">
-                            <h1>Login</h1>
-                            <p>Seja bem-vindo(a) novamente.Faça login par acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
-                            <form action="login.php" method="POST" autocomplete="on">
-                            <div class="campo">
-                            <label for="ilogin">Login</label>
-                            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
-                            <div>
-                            </div>
-                            <div class="campo">
-                            <label for="ilogin">Senha</label>
-                            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                            </div>
-                            <input type="submit" value="Entrar" id="entrar">
-                            <a href="esqueci.html" class="botao">
-                            Esqueci a senha
-                            </a>
-                            </form>
-                        </section>
-                     </section>
-                     </form>
-                     </main>
-                     <footer>
-                        <p>Criado por Amilton</p>
-                     <p>Visite também:</p>
-                     <a href="">CRYPTOGAMES</a>
-                     <p>Acomnhe-nós:</p>
-                     <p><a>Instagram</a>|<a>Facebook</a>|<a>Twitter</a></p>
-                     <article>
-                        <h1>Sobre</h1>
-                        <p>
-                           Site de Jogos Online é site do tipo Block, com o objectivo de te manter informado sobre o mundo dos jogos online. 
-                        </p>
-                     </article>
-                     <nav>
-                        <menu>
-                           <div onclick="clickCategorias()">&#9776;</div>
-                           <ul id="menu">
-                              <li><a href="">GAMES</a></li>
-                              <li><a href="">CRYPTOGAMES</a></li>
-                           </ul>
-                        </menu>
-                     </nav>
-                     </footer>
-                     </body>
-                     </html>
+                  </ul>
+            </menu>
+      </nav>
+      <div class="xxx" id="xslide"></div>
+   </header>
+   <main>
+      <a href="./cadastro.html" class="signup">Cadastre-se</a>
+      <section>
+         <section id="login">
+               <div id="imagem">
+                  <!-- Imagem nas css --> 
+               </div>
+               <div id="formulario">
+                  <h1>Login</h1>
+                  <p>Seja bem-vindo(a) novamente.Faça login par acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
+               <form action="login.php" method="POST" autocomplete="on">
+                  <div class="campo">
+                     <label for="ilogin">Login</label>
+                     <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                  <div>
+               </div>
+                  <div class="campo">
+                     <label for="ilogin">Senha</label>
+                     <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                  </div>
+                  <input type="submit" value="Entrar" id="entrar">
+                  <a href="esqueci.html" class="botao">
+                  Esqueci a senha
+                  </a>
+               </form>
+         </section>
+      </section>
+   </main>
+   <footer>
+      <p>Criado por Amilton</p>
+      <p>Visite também:</p>
+      <a href="">CRYPTOGAMES</a>
+      <p>Acomnhe-nós:</p>
+      <p><a>Instagram</a>|<a>Facebook</a>|<a>Twitter</a></p>
+         <article>
+            <h1>Sobre</h1>
+            <p>
+            Site de Jogos Online é site do tipo Block, com o objectivo de te manter informado sobre o mundo dos jogos online. 
+            </p>
+         </article>
+      <nav>
+         <menu>
+            <div onclick="clickCategorias()">&#9776;</div>
+               <ul id="menu">
+                  <li><a href="">GAMES</a></li>
+                  <li><a href="">CRYPTOGAMES</a></li>
+            </ul>
+         </menu>
+      </nav>
+   </footer>
+</body>
+</html>

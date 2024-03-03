@@ -15,6 +15,7 @@
       --cor5: #063d1e;
       --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     }
+    /*Global*/
       * {
       padding: 0;
       margin: 0;
@@ -23,30 +24,39 @@
     body {
       font-family: var(--font-padrao);
       background-color: var(--cor0);
-      }
+    }
+    /*Princípal*/
     main {
       background-color: white;
       margin: auto;
-      margin-top: 10px;
+      padding-top: 10px;
       margin-bottom: 10px;
-      border-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
-    section {
-      margin-top: 10px;
+    main > section {
+      padding: 10px;
+    }
+    aside {
+      display: none;
     }
     strong {
       color: var(--cor3);
     }
+    /*Rodape*/
     footer {
       padding: 10px;
-      background-color: var(--cor1);
+      background-color: var(--cor5);
     }
-    footer > p, footer > a {
+    footer p {
+      color: white;
       text-align: center;
       font-size: 1.3em;
     }
-    footer > p > a, footer > a {
-      color: var(--cor3);
+    footer > a {
+      font-size: 1.3em;
+      text-align: center;
+      color: white;
       cursor: pointer;
     }
     footer a:hover {
@@ -85,7 +95,7 @@
     a {
       text-decoration: none;
     }
-    li {
+    nav li {
       list-style: none;
     }
 

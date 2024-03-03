@@ -16,40 +16,76 @@
 			* {
 				font-family: 'Coursier New', Cousier, monospace;
 			}
+			main > nav.navbar {
+				display: none;
+			}
+			header > nav > menu >  ul.menu {
+				display: none;
+			}
+			footer {
+				display: none;
+			}
+			img {
+				height: 200px;
+			}
+			main > aside, main > section > article > a > div.inst {
+				display: none;
+			}
 		}
 
 		/*Tablet*/
 		@media screen and (min-width: 768px) and (max-width: 992px) { 
+			main > section > article > img {
+				height: 300px;
+			}
 		}
 
 		/*Desktop*/
 		@media screen and (min-width: 992px) and (max-width: 1200px) { 
+			main > nav.navbar {
+				display: none;
+			}
+			main {
+				width: 100%;
+			}
+			main > section {
+				width: 70%;
+				border-right: 1px solid var(--cor2);
+			}
+			main > aside {
+				width: 25%;
+			}
+			main > section, main > aside {
+				padding: 10px;
+				margin: 10px;
+				display: inline-table;
+			}
+			img {
+				height: 300px;
+			}
 		}
 
 		/*Grandes telas*/
 		@media screen and (min-width: 1200px) { 
-		}
-
-		@media  screen and (min-width: 992px) {
-		main > nav.navbar {
-			display: none;
-		}
-		main {
-			width: 950px;
-		}
-		section {
-			width: 700px;
-			border-right: 1px solid var(--cor2);
-		}
-		aside {
-			width: 200px;
-		}
-		section, aside {
-			padding: 10px;
-			margin: 10px;
-			display: inline-table;
-		}
-		img {
-			height: 300px;
-		}
+			main > nav.navbar {
+				display: none;
+			}
+			main {
+				width: 1182px;
+			}
+			main > section {
+				width: 833px;
+				border-right: 1px solid var(--cor2);
+			}
+			main > aside {
+				width: 300px;
+			}
+			main > section, main > aside {
+				padding: 10px;
+				margin: 10px;
+				display: inline-table;
+			}
+			img {
+				height: 300px;
+			}
 		}

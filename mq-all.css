@@ -4,88 +4,43 @@
 
 		/*Typical Device Breakpoints
 		--------------------------------
-		Pequenas telas: ate 600px
-		Celular: de 600px ate 700px
-		Tablet: 768px ate 1200px
-		Desktop: 992px ate 1200px
-		Grandes telas: acima de 1200px
+		Celular: até 767px
+		Tablet: 768px até 1023px
+		Desktop e telas grandes: acima de 1024px
+
+		Paleta de cores
 		*/
+
+		:root {
+			--cor0: #ebe5c5;
+			--cor1: #83e1ad;
+			--cor2: #3ddc84;
+			--cor3: #2fa866;
+			--cor4: #1a5c37;
+			--cor5: #063d1e;
+			--font-padrao: Arial, Verdana, Helvetica, sans-serif;
+		}
+
+		@media all {
+
+		}
 
 		/*Impressao*/
 		@media print {
-			* {
-				font-family: 'Coursier New', Cousier, monospace;
-			}
-			main > nav.navbar {
-				display: none;
-			}
-			header > nav > menu >  ul.menu {
-				display: none;
-			}
-			footer {
-				display: none;
-			}
-			img {
-				height: 200px;
-			}
-			main > aside, main > section > article > a > div.inst {
-				display: none;
-			}
+			
+		}
+
+		/*Mobile*/
+		@media screen and (max-width: 767px) {
+			
 		}
 
 		/*Tablet*/
-		@media screen and (min-width: 768px) and (max-width: 992px) { 
-			main > section > article > img {
-				height: 300px;
-			}
+		@media screen and (min-width: 768px) and (max-width: 1023px) { 
+			
 		}
 
-		/*Desktop*/
-		@media screen and (min-width: 992px) and (max-width: 1200px) { 
-			main > nav.navbar {
-				display: none;
-			}
-			main {
-				width: 100%;
-			}
-			main > section {
-				width: 70%;
-				border-right: 1px solid var(--cor2);
-			}
-			main > aside {
-				width: 25%;
-			}
-			main > section, main > aside {
-				padding: 10px;
-				margin: 10px;
-				display: inline-table;
-			}
-			img {
-				height: 300px;
-			}
-		}
-
-		/*Grandes telas*/
-		@media screen and (min-width: 1200px) { 
-			main > nav.navbar {
-				display: none;
-			}
-			main {
-				width: 1182px;
-			}
-			main > section {
-				width: 833px;
-				border-right: 1px solid var(--cor2);
-			}
-			main > aside {
-				width: 300px;
-			}
-			main > section, main > aside {
-				padding: 10px;
-				margin: 10px;
-				display: inline-table;
-			}
-			img {
-				height: 300px;
-			}
-		}
+		/*Desktop e telas grandes*/
+		@media screen and (min-width: 1024px) { 
+			
+		}	

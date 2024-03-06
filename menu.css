@@ -1,96 +1,5 @@
     @charset "UTF-8";
 
-    /*Versao Mobile First*/
-
-    /*Paletas de cores
-
-    */
-
-    :root {
-      --cor0: #ebe5c5;
-      --cor1: #83e1ad;
-      --cor2: #3ddc84;
-      --cor3: #2fa866;
-      --cor4: #1a5c37;
-      --cor5: #063d1e;
-      --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-    }
-    /*Global*/
-      * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: var(--font-padrao);
-      background-color: var(--cor0);
-    }
-    /*Princípal*/
-    main {
-      background-color: white;
-      margin: auto;
-      padding-top: 10px;
-      margin-bottom: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-    }
-    main > section {
-      padding: 10px;
-    }
-    aside {
-      display: none;
-    }
-    strong {
-      color: var(--cor3);
-    }
-    /*Rodape*/
-    footer {
-      padding: 10px;
-      background-color: var(--cor5);
-    }
-    footer p {
-      color: white;
-      text-align: center;
-      font-size: 1.3em;
-    }
-    footer > a {
-      font-size: 1.3em;
-      text-align: center;
-      color: white;
-      cursor: pointer;
-    }
-    footer a:hover {
-      color: var(--cor4);
-    }
-    footer > article {
-      padding: 10px;
-    }
-    footer > article > h1 {
-      color: var(--cor3);
-      font-size: 1.3em;
-      text-align: center;
-    }
-    footer > article {
-      line-height: 30px;
-    }
-    footer > nav > menu > div {
-      font-size: 2em;
-      text-align: center;
-      }
-    footer > nav > menu > ul {
-      display: none;
-    }
-    footer > nav > menu > ul > li {
-      padding: 10px;
-    } 
-    footer > nav > menu > ul > li > a {
-      color: white;
-      font-size: 1.3em;
-    }
-    footer > nav > menu > ul > li > a:hover {
-      color: var(--cor4);
-    }
-
     /*MENU*/
     a {
       text-decoration: none;
@@ -176,4 +85,45 @@
         height: 170px;
         display: none;
       }  
+    }
+    /*MENU CATEGORIAS*/
+    #logo {
+      font-size: 20px;
+    }
+    #nav-links a {
+      color: white;
+    }
+    #menu li:hover {
+      background-color: var(--cor5);
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+    #menu li {
+      padding: 5px 14px;
+    }  
+    #hamburger {
+      font-size: 24px;
+    }
+    #menu {
+      width: 100%;
+      display:none;
+      position: absolute;
+      right: 0;
+      background-color: var(--cor4);
+      text-align: center;
+      padding: 16px 0;
+      gap: 1em;
+      font-size: 18px;
+    }
+    #menu li:hover {
+      display: inline-block;
+      background-color: var(--cor5);
+      transition: 0.3s ease;
+    }
+    #menu li + li {
+      margin-top: 12px;
+    }
+
+    #hamburger {
+      display: block;
     }

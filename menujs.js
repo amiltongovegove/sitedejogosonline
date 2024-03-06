@@ -20,5 +20,5 @@
 
 
 		function istDow() {
-			alert("As instalaçoes Só estao disponiveis para dispositivos Mobiles");
+			alert("As instalações Só estão disponíveis para dispositivos Mobiles");
 		}

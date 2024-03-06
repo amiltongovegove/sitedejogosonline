@@ -5,7 +5,7 @@
       /*Mobile First*/
       main {
          position: relative;
-         height: 600px;
+         height: 650px;
       }
       .signup {
          background-color: var(--cor1);
@@ -30,7 +30,7 @@
 
          background-color: white;
          width: 250px;
-         height: 545px;
+         height: 600px;
          border-radius: 20px;
          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
@@ -109,7 +109,7 @@
       @media screen and (min-width: 768px) and (max-width: 1023px) {
          section#login {
             width: 80vw;
-            height: 330px;
+            height: 400px;
          }
          section#login > div#imagem {
             float: left;
@@ -129,7 +129,7 @@
          }
          section#login {
             width: 950px;
-            height: 330px;
+            height: 400px;
          }
          section#login > div#imagem {
             float: right;

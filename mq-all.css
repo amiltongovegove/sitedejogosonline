@@ -32,6 +32,7 @@
 				font-family: var(--font-padrao);
 			}
 			main {
+				border-radius: 0px 0px 10px 10px;
 				background-color: white;
 				margin: auto;
 			}
@@ -49,6 +50,11 @@
 			}
 			main ul {
 				line-height: 30px;
+				padding: 10x;
+			}
+			main img {
+				display: block;
+				margin: auto;
 			}
 			footer {
 				padding-top: 10px;
@@ -80,20 +86,16 @@
 		
 
 		/*Impressao*/
-		@media print {
-			
+		@media print {	
 		}
 
 		/*Mobile*/
 		@media screen and (max-width: 767px) {
 			main {
-				border-radius: 0px 0px 10px 10px;
 				padding-top: 10px;
 				margin-bottom: 10px;
 			}
 			main img {
-				display: block;
-				margin: auto;
 				border-radius: 10px;
 				width: 300px;
 			}
@@ -104,10 +106,49 @@
 
 		/*Tablet*/
 		@media screen and (min-width: 768px) and (max-width: 1023px) { 
-			
+			main {
+				padding-top: 10px;
+			}
+			main > section, aside {
+				display: inline-table;
+			}
+			main > section {
+				width: 59%;
+				border-right: 1px solid var(--cor2);
+			}
+			main > aside {
+				width: 29%;
+			}
+			aside > ul {
+				padding: 10px;
+			}
+			main img {
+				width: 500px;
+				border-radius: 10px;
+			}
 		}
 
 		/*Desktop e telas grandes*/
 		@media screen and (min-width: 1024px) { 
-			
+			main {
+				width: 1000px;
+				padding-top: 10px;
+			}
+			main > section, aside {
+				display: inline-table;
+			}
+			main > section {
+				width: 600px;
+				border-right: 1px solid var(--cor2);
+			}
+			main > aside {
+				width: 300px;
+			}
+			main img {
+				width: 400px;
+				border-radius: 10px;
+			}
+			main ul {
+				padding: 20px;
+			}
 		}	

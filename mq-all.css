@@ -41,7 +41,7 @@
 			}
 			main h1 {
 				font-size: 2em;
-				color: var(--cor2);
+				color: var(--cor4);
 			}
 			main p {
 				font-size: 16px;
@@ -55,6 +55,17 @@
 			main img {
 				display: block;
 				margin: auto;
+			}
+			main > aside li {
+				list-style: none;
+			}
+			main > aside a {
+				font-size: 1.03em;
+				font-weight: bolder;
+				color: black;
+			}
+			main > aside a:hover {
+				color: var(--cor2);
 			}
 			footer {
 				padding-top: 10px;
@@ -114,7 +125,7 @@
 			}
 			main > section {
 				width: 59%;
-				border-right: 1px solid var(--cor2);
+				border-right: 1px solid white;
 			}
 			main > aside {
 				width: 29%;
@@ -139,7 +150,7 @@
 			}
 			main > section {
 				width: 600px;
-				border-right: 1px solid var(--cor2);
+				border-right: 1px solid white;
 			}
 			main > aside {
 				width: 300px;

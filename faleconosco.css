@@ -5,7 +5,7 @@
       /*Mobile First*/
       main {
          position: relative;
-         height: 650px;
+         height: 660px;
       }
       .signup {
          background-color: var(--cor1);
@@ -21,7 +21,7 @@
          color: var(--cor3);
       }
       section#login {
-         margin-top: 20px;
+         margin-top: 25px;
          position: absolute;
          top: 50%;
          left: 50%;

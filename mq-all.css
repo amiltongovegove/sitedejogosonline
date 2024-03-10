@@ -48,6 +48,11 @@
 				line-height: 30px;
 				text-indent: 30px;
 			}
+			main > aside {
+				background-color: rgba(48, 102, 71, 0.932);
+				border-radius: 10px;
+				height: 100vw;
+			}
 			main ul {
 				line-height: 30px;
 				padding: 10x;

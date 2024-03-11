@@ -1,6 +1,6 @@
     @charset "UTF-8";
     section > article {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     article > h1 {
         background-image: linear-gradient(to right, var(--cor2), transparent);

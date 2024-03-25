@@ -1,0 +1,138 @@
+:root {
+    /*Paleta de cores*/
+    --cor1: rgb(231, 235, 236);
+    --cor2: white;
+    --cor3: black;
+    --cor4: rgb(124, 124, 229);
+    --cor5: ;
+    /*Fontes*/
+    --font: Arial, Helvetica, sans-serif;
+    /*Tamanhos de letras*/
+    --h1: 2em;
+    --h2: 1.5em;
+    --p: 1em;
+}
+
+/*Midias:
+--------------------------------
+Mobile: até 767px
+Tablet: de 768px até 1023px
+Desktop e telas grandes: até 1024px
+*/
+
+/*Global*/
+@media all {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        background-color: var(--cor1) ;
+        font-family: var(--font);
+    }
+
+    h1 {
+        font-size: var(--h1);
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: var(--h2);
+        line-height: 30px;
+    }
+    
+    p {
+        font-size: var(--p);
+        line-height: 30px;
+    }
+
+    header {
+        background-color: var(--cor2);
+        margin-bottom: 10px;
+    }
+
+    /*Menu*/
+    header > nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: var(--cor4);
+        color: var(--cor2);
+    }
+
+    header > nav > i {
+        cursor: pointer;
+        display: none;
+    }
+
+    header > nav > menu > ul > a {
+        display: inline-flex;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: var(--h2);
+        text-decoration: none;
+        color: var(--cor2);
+    }
+
+    header > nav > menu > ul > a:hover {
+        background-color: var(--cor1);
+        color: var(--cor4);
+    }
+
+    @media screen and (max-width: 768px) {
+        header > nav {
+            display: block;
+            padding: 0;
+        }
+
+        header > nav > h1 {
+            padding: 20px 0px 15px 20px;
+        }
+
+        header > nav > i {
+            display: block;
+            position: relative;
+            top: -35px;
+            left: -20px;
+            text-align: right;
+        }
+ 
+        header > nav > menu {
+            display: none;
+            background-color: var(--cor4);
+        }
+
+        header > nav > menu > ul > a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            border-radius: 0;
+            border-top: var(--cor2) 1px solid;
+        }
+    }
+
+    main > section, aside {
+        background-color: var(--cor2);
+    }
+
+    main .ul > li {
+        line-height: 30px;
+        margin-left: 50px;
+    }
+}
+
+/*Mobile*/
+@media  screen and (max-width: 767px) {
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/*Desktop e telas grandes*/
+@media screen and (min-width: 1024px) {
+}

@@ -50,7 +50,6 @@ Desktop e telas grandes: até 1024px
 
     header {
         background-color: var(--cor2);
-        margin-bottom: 10px;
     }
 
     /*Menu*/
@@ -133,6 +132,10 @@ Desktop e telas grandes: até 1024px
     }
 }
 
+/*Print*/
+@media print {
+}
+
 /*Mobile*/
 @media  screen and (max-width: 767px) {
 }
@@ -143,4 +146,12 @@ Desktop e telas grandes: até 1024px
 
 /*Desktop e telas grandes*/
 @media screen and (min-width: 1024px) {
+    main {
+        display: flex;
+        margin: auto;
+    }
+
+    main > section, aside {
+        margin: 10px;
+    }
 }

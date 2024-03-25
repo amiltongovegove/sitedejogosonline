@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body onresize="move()">
     <header>
         <div id="header">
             <!-- Imagem -->
@@ -17,9 +17,9 @@
             </p>
         </div>
         <nav>
-            <h1>Casa</h1>
-            <i class="material-icons" onclick="menu()">menu</i>
-            <menu id="itens">
+            <div class="titulo">Casa</div>
+            <div onclick="menu()" class="hamburguer">&#9776;</div>
+            <menu class="itens">
                 <ul>
                     <a href="./index.html">Home</a>
                     <a href="./games.html">Games</a>

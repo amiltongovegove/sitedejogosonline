@@ -1,0 +1,15 @@
+header > div#imagem {
+    min-height: 250px;
+    background: url(./codm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+header > div#imagem >article h1 {
+    text-align: center;
+    color: var(--cor2);
+} 
+header > div#imagem >article > p {
+    color: var(--cor2);
+}

@@ -58,19 +58,27 @@ Desktop e telas grandes: até 1024px
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
         background-color: var(--cor4);
         color: var(--cor2);
     }
 
-    header > nav > i {
-        cursor: pointer;
+    header > nav > div.titulo, div.hamburguer {
+        padding: 15px;
+    }
+
+    header > nav > div.titulo {
+        font-size: var(--h1);
+    }
+
+    header > nav > div.hamburguer {
         display: none;
+        font-size: var(--h2);
+        cursor: pointer;
     }
 
     header > nav > menu > ul > a {
         display: inline-flex;
-        padding: 5px 10px;
+        padding: 5px 15px;
         border-radius: 5px;
         font-size: var(--h2);
         text-decoration: none;
@@ -88,16 +96,14 @@ Desktop e telas grandes: até 1024px
             padding: 0;
         }
 
-        header > nav > h1 {
-            padding: 20px 0px 15px 20px;
+        header > nav > div.titulo {
+            display: inline-table;
         }
 
-        header > nav > i {
-            display: block;
-            position: relative;
-            top: -35px;
-            left: -20px;
-            text-align: right;
+        header > nav > div.hamburguer {
+            display: inline-table;
+            float: right;
+            margin-right: 10px;
         }
  
         header > nav > menu {
@@ -109,11 +115,13 @@ Desktop e telas grandes: até 1024px
             display: block;
             text-align: center;
             width: 100%;
-            padding: 20px;
+            padding: 15px;
             border-radius: 0;
-            border-top: var(--cor2) 1px solid;
+            border-top: var(--cor3) 1px solid;
         }
     }
+
+    /* ----------------------------------------------------- */
 
     main > section, aside {
         background-color: var(--cor2);

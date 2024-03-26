@@ -144,6 +144,32 @@ Desktop e telas grandes: até 1024px
         line-height: 30px;
         margin-left: 50px;
     }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    footer  div#bonus {
+        min-width: 100%;
+        background-color: var(--cor1);
+    }
+
+    footer  div#divulgacao {
+        width: 500px;
+        background-color: var(--cor2);
+    }
+    footer > article {
+        width: 500px;
+        background-color: var(--cor3);
+    }
+
+    footer nav {
+        width: 100%;
+        background-color: var(--cor4);
+    }
 }
 
 /*Print*/
@@ -151,11 +177,11 @@ Desktop e telas grandes: até 1024px
 }
 
 /*Mobile*/
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 767px) {
 }
 
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     main {
         max-width: 800px;
         margin: auto;

@@ -1,6 +1,6 @@
 //Menu Responsivo
 
-let a = window.document.getElementsByClassName('itens')[0]
+let a = window.document.getElementById('itens')
 
 function menu() {
     if (a.style.display == 'block') {

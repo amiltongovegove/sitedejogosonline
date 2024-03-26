@@ -50,6 +50,7 @@ Desktop e telas grandes: até 1024px
 
     header {
         background-color: var(--cor2);
+        margin-bottom: 3px;
     }
 
     /*Menu*/

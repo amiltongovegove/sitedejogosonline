@@ -149,26 +149,73 @@ Desktop e telas grandes: até 1024px
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer > div#bonus {
+        min-width: 100%;
         padding: 10px;
     }
 
-    footer  div#bonus {
-        min-width: 100%;
-        background-color: var(--cor1);
+    footer > div#bonus > p {
+        text-align: center;
+    }
+
+    footer > div#bonus li {
+        text-indent: 100px;
+        list-style: none;
+    }
+
+    footer > div#bonus li > a {
+        color: var(--cor3);
+    }
+
+    footer > div#bonus > li > a:hover {
+        text-decoration: none;
+        color: var(--cor4);
     }
 
     footer  div#divulgacao {
         width: 500px;
-        background-color: var(--cor2);
-    }
-    footer > article {
-        width: 500px;
-        background-color: var(--cor3);
+        text-indent: 10px;
+        padding: 10px;
     }
 
-    footer nav {
+    footer > div#divulgacao > p > a {
+        font-size: var(--p);
+    }
+
+    footer > div#divulgacao > p > a:hover {
+        color: var(--cor4);
+    }
+
+    footer > article {
+        width: 500px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*Menu footer*/
+    footer > nav {
+        display: flex;
+        justify-content: center;
         width: 100%;
-        background-color: var(--cor4);
+        padding: 20px;
+    }
+
+    footer nav > div {
+        display: none;
+    }
+
+    footer nav > menu > ul > a {
+        text-decoration: none;
+        font-size: var(--p);
+        padding: 5px 15px;
+        color: var(--cor2);
+    }
+
+    footer nav > menu > ul > a:hover {
+        color: var(--cor4);
     }
 }
 
